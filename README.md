@@ -18,7 +18,14 @@ metaphor of sexual reproduction:
 
 ### How to Use the Library
 
+Requires
+```bash
+pip install numpy
+pip install spacy
+pip install Cython
 ```
+
+```bash
 python3 -m venv env
 source env/bin/activate
 pip install pantheon-generator

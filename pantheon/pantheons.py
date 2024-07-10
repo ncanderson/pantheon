@@ -12,7 +12,7 @@ class Pantheon:
         self.gods = {}
         self.add_god(mother_of_creation)
         self.add_god(father_of_creation)
-
+        print ("here")
 
     def add_god(self, god):
         """Add a god to this Pantheon's gods dictionary."""
@@ -84,3 +84,4 @@ class Pantheon:
 def send_birth_announcement(parent_a, parent_b, child):
     """Convenience method for presentations."""
     print("%s - %s" % (child.name, child.epithet))
+    print("     Child of %s and %s") % (child.parents[0], child.parents[1])
